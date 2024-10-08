@@ -1,4 +1,4 @@
-# OpenWRT-CI
+# OpenWRT-CI for AX1800Pro
 云编译OpenWRT固件
 
 官方版：
@@ -13,7 +13,9 @@ https://github.com/VIKINGYFY/immortalwrt.git
 
 固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-MEDIATEK系列、QUALCOMMAX系列、ROCKCHIP系列、X86系列。
+QUALCOMMAX系列AX1800Pro、X86系列。
+
+AX1800Pro 需要刷大分区的GPT，默认gpt分区表无法输入超过60M的固件。
 
 # 目录简要说明：
 
